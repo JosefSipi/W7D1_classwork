@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>NinetyNineCats</title>
@@ -9,6 +10,15 @@
   </head>
 
   <body>
+  <% if logged_in? %>
+    <!--# show username
+        # loggout button -->
+  <% else %>
+  
+  <% end %>
+  
+
+
     <%= yield %>
   </body>
 </html>
